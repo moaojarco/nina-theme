@@ -1,0 +1,31 @@
+{
+  "name": "nina",
+  "displayName": "Nina",
+  "description": "First Theme Color",
+  "version": "0.1.2",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "publisher": "moaojarco",
+  "author": "João Marco",
+  "license": "MIT",
+  "homepage": "",
+  "icon": "icon.jpeg",
+  "keywords": [
+    "purple theme",
+    "vscode nina",
+    "nina theme"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nina Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nina Theme-color-theme.json"
+      }
+    ]
+  }
+}
