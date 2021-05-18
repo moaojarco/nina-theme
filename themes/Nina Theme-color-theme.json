@@ -82,7 +82,7 @@
         "variable.other.object.property.js.jsx"
       ],
       "settings": {
-        "foreground": "#f39c12"
+        "foreground": "#ff9d00"
       }
     },
     {
@@ -96,8 +96,7 @@
         "text.html.markdown string.quoted",
         "meta.function-call.generic.python",
         "meta.at-rule.extend support.constant",
-        "source.css entity.other.attribute-name",
-        "entity.other.attribute-name"
+        "source.css entity.other.attribute-name"
       ],
       "settings": {
         "foreground": "#b6ebc4"
@@ -110,10 +109,18 @@
         "variable.language.this.js",
         "variable.language.special.self.python",
         "support.function",
-        "entity.name.function"
+        "entity.name.function",
+        "entity.other.attribute-name"
       ],
       "settings": {
         "foreground": "#6df08e"
+      }
+    },
+    {
+      "name": "RedAtri",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#fa68b8"
       }
     },
     {
@@ -126,7 +133,7 @@
         "punctuation.definition.string.end"
       ],
       "settings": {
-        "foreground": "#ebaf77"
+        "foreground": "#f5e691"
       }
     },
     {
@@ -137,8 +144,7 @@
         "punctuation.section.embedded.end.ruby",
         "punctuation.section.embedded.begin.php",
         "punctuation.section.embedded.begin.ruby",
-        "punctuation.definition.template-expression",
-        "entity.name.tag"
+        "punctuation.definition.template-expression"
       ],
       "settings": {
         "foreground": "#8f90eb"
@@ -174,7 +180,8 @@
         "markup.inserted",
         "punctuation.definition.string",
         "punctuation.definition.markdown",
-        "support.type.primitive"
+        "support.type.primitive",
+        "support.class.component"
       ],
       "settings": {
         "foreground": "#84cadf"
@@ -193,7 +200,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#e99c44"
+        "foreground": "#e69e4c"
       }
     },
     {
