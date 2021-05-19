@@ -2,4 +2,4 @@
 
 Theme with Purple, yellow and green colors.
 
-![alt text](https://i.ibb.co/Vw26wD6/nina-theme.png)
+![Nina](https://i.ibb.co/9Yr0stK/nina-theme.png)
