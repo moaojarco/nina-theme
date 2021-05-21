@@ -58,8 +58,7 @@
         "source.css entity.other.attribute-name.parent-selector",
         "meta.structure.dictionary.json support.type.property-name",
         "variable.other.constant.object",
-        "variable.other.readwrite",
-        "variable.other.property"
+        "variable.other.readwrite"
       ],
       "settings": {
         "foreground": "#fffd8e"
@@ -69,7 +68,6 @@
       "name": "Orange",
       "scope": [
         "markup.bold",
-        "constant.numeric",
         "meta.group.regexp",
         "constant.other.php",
         "support.constant.ext.php",
@@ -96,7 +94,8 @@
         "text.html.markdown string.quoted",
         "meta.function-call.generic.python",
         "meta.at-rule.extend support.constant",
-        "source.css entity.other.attribute-name"
+        "source.css entity.other.attribute-name",
+        "entity.name.type.class"
       ],
       "settings": {
         "foreground": "#b6ebc4"
@@ -110,7 +109,8 @@
         "variable.language.special.self.python",
         "support.function",
         "entity.name.function",
-        "entity.other.attribute-name"
+        "entity.other.attribute-name",
+        "constant.numeric"
       ],
       "settings": {
         "foreground": "#6df08e"
@@ -121,6 +121,17 @@
       "scope": ["entity.name.tag"],
       "settings": {
         "foreground": "#fa68b8"
+      }
+    },
+    {
+      "name": "GlossBlue",
+      "scope": [
+        "variable.other.property",
+        "meta.property-value",
+        "support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#b2cae6"
       }
     },
     {
@@ -181,7 +192,8 @@
         "punctuation.definition.string",
         "punctuation.definition.markdown",
         "support.type.primitive",
-        "support.class.component"
+        "support.class.component",
+        "entity.name.type"
       ],
       "settings": {
         "foreground": "#84cadf"

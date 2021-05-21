@@ -1,13 +1,9 @@
 # Change Log
 
-## [0.1.0]
+## [1.0.0]
 
-- Initial release
+- Official Release
 
-## [0.2.0]
+## [1.0.1]
 
-- Setting new colors for html atributtes
-
-## [0.2.2]
-
-- Add new icon
+- Fix property colors
