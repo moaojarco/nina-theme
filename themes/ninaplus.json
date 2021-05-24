@@ -1,8 +1,8 @@
 {
-  "name": "Copydromeda",
+  "name": "Nina+",
   "type": "dark",
   "colors": {
-    "editor.background": "#1f292e",
+    "editor.background": "#1E1E1E",
     "editor.foreground": "#eeffff",
     "activityBarBadge.background": "#389de0",
     "sideBarTitle.foreground": "#ffffff"
@@ -10,7 +10,11 @@
   "semanticHighlighting": true,
   "tokenColors": [
     {
-      "scope": "comment",
+      "scope": [
+        "comment",
+        "keyword.operator.comparison",
+        "keyword.operator.assignment"
+      ],
       "settings": {
         "foreground": "#D5CED9"
       }
@@ -35,16 +39,10 @@
         "punctuation.definition.metadata.markdown",
         "punctuation.definition.string.end.markdown",
         "punctuation.definition.string.begin.markdown",
-        "keyword.operator.assignment",
-        "storage.type.function.arrow",
-        "keyword.operator.arithmetic",
-        "keyword.operator.relational",
-        "keyword.control.conditional",
-        "keyword.operator.ternary",
-        "keyword.operator.type.annotation"
+        "storage.type.function.arrow"
       ],
       "settings": {
-        "foreground": "#D5CED9"
+        "foreground": "#e8a1eb"
       }
     },
     {
@@ -61,7 +59,7 @@
         "variable.other.readwrite"
       ],
       "settings": {
-        "foreground": "#fffd8e"
+        "foreground": "#fff6a3"
       }
     },
     {
@@ -80,7 +78,7 @@
         "variable.other.object.property.js.jsx"
       ],
       "settings": {
-        "foreground": "#ff9d00"
+        "foreground": "#ffc361"
       }
     },
     {
@@ -108,47 +106,55 @@
         "variable.language.this.js",
         "variable.language.special.self.python",
         "support.function",
-        "entity.name.function",
-        "entity.other.attribute-name",
-        "constant.numeric"
+        "entity.name.function"
       ],
       "settings": {
-        "foreground": "#6df08e"
+        "foreground": "#7dff9e"
       }
     },
     {
       "name": "RedAtri",
-      "scope": ["entity.name.tag"],
+      "scope": [
+        "entity.name.tag",
+        "keyword.operator.arithmetic",
+        "keyword.operator.relational",
+        "keyword.control.conditional",
+        "keyword.operator.ternary",
+        "keyword.operator.type.annotation"
+      ],
       "settings": {
-        "foreground": "#fa68b8"
+        "foreground": "#569cd6"
       }
     },
     {
-      "name": "GlossBlue",
+      "name": "Yelllow",
+      "scope": ["constant", "support.constant.property-value"],
+      "settings": {
+        "foreground": "#f3e8a7"
+      }
+    },
+    {
+      "name": "SJISDJI",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#b5cea8"
+      }
+    },
+    {
+      "name": "YellowStrings",
       "scope": [
-        "variable.other.property",
         "meta.property-value",
-        "support.type.property-name.json"
+        "support.type.property-name.json",
+        "support.type.property-name.css",
+        "entity.other.attribute-name",
+        "variable.parameter"
       ],
       "settings": {
-        "foreground": "#b2cae6"
+        "foreground": "#c6fffc"
       }
     },
     {
-      "name": "MyRed",
-      "scope": [
-        "constant",
-        "string",
-        "support.constant.property-value",
-        "punctuation.definition.string.begin",
-        "punctuation.definition.string.end"
-      ],
-      "settings": {
-        "foreground": "#f5e691"
-      }
-    },
-    {
-      "name": "Hot Pink",
+      "name": "Bluesx",
       "scope": [
         "punctuation.definition.interpolation",
         "punctuation.section.embedded.end.php",
@@ -180,7 +186,7 @@
         "markup.deleted"
       ],
       "settings": {
-        "foreground": "#af6aff"
+        "foreground": "#be87fd"
       }
     },
     {
@@ -189,10 +195,8 @@
         "string.regexp",
         "markup.changed",
         "markup.inserted",
-        "punctuation.definition.string",
-        "punctuation.definition.markdown",
         "support.type.primitive",
-        "support.class.component",
+
         "entity.name.type"
       ],
       "settings": {
@@ -200,26 +204,37 @@
       }
     },
     {
-      "name": "Green",
-      "scope": [
-        "text.html.php string",
-        "markup.inline.raw",
-        "text.html meta.embedded source.js string",
-        "text.html.php punctuation.definition.string",
-        "text.html meta.embedded source.js punctuation.definition.string",
-        "text.html punctuation.definition.string",
-        "text.html string",
-        "variable.parameter"
-      ],
-      "settings": {
-        "foreground": "#e69e4c"
-      }
-    },
-    {
       "name": "Font Underline",
       "scope": ["entity.other.inherited-class"],
       "settings": {
         "fontStyle": "underline"
+      }
+    },
+
+    {
+      "name": "Booleans, Undefined and Null",
+      "scope": [
+        "constant.language.null",
+        "constant.language.boolean",
+        "constant.language.undefined",
+        "constant.numeric.decimal"
+      ],
+      "settings": {
+        "foreground": "#f08686"
+      }
+    },
+    {
+      "name": "Components Tags",
+      "scope": ["support.class.component"],
+      "settings": {
+        "foreground": "#4EC9B0"
+      }
+    },
+    {
+      "name": "Stringss",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#ecb19a"
       }
     }
   ]

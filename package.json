@@ -2,7 +2,7 @@
   "name": "nina",
   "displayName": "Nina",
   "description": "A good theme",
-  "version": "1.0.1",
+  "version": "1.5.3",
   "engines": {
     "vscode": "^1.56.0"
   },
@@ -18,9 +18,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Nina Theme",
+        "label": "Nina",
         "uiTheme": "vs-dark",
-        "path": "./themes/Nina Theme-color-theme.json"
+        "path": "./themes/nina.json"
+      },
+      {
+        "label": "Nina A+",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ninaplus.json"
       }
     ]
   },
