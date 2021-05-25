@@ -2,7 +2,7 @@
   "name": "nina",
   "displayName": "Nina",
   "description": "A good theme",
-  "version": "1.5.3",
+  "version": "1.5.5",
   "engines": {
     "vscode": "^1.56.0"
   },
@@ -12,7 +12,8 @@
   "homepage": "",
   "icon": "icon2.png",
   "categories": [
-    "Themes"
+    "Themes",
+    "Other"
   ],
   "readme": "README.md",
   "contributes": {
@@ -20,12 +21,12 @@
       {
         "label": "Nina",
         "uiTheme": "vs-dark",
-        "path": "./themes/nina.json"
+        "path": "./themes/nina-dr.json"
       },
       {
         "label": "Nina A+",
         "uiTheme": "vs-dark",
-        "path": "./themes/ninaplus.json"
+        "path": "./themes/nina-aplus.json"
       }
     ]
   },

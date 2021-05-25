@@ -16,3 +16,7 @@
 ## [1.5.0]
 
 - Mix Purple+Yellow (Dracula+Dark+)
+
+## [1.5.4]
+
+- Release Nina A+ theme

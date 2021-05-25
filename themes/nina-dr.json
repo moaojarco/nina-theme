@@ -2,7 +2,7 @@
   "name": "Nina",
   "type": "dark",
   "colors": {
-    "editor.background": "#333333",
+    "editor.background": "#262626",
     "editor.foreground": "#eeffff",
     "activityBarBadge.background": "#389de0",
     "sideBarTitle.foreground": "#ffffff"
@@ -61,7 +61,7 @@
         "variable.other.readwrite"
       ],
       "settings": {
-        "foreground": "#fffd8e"
+        "foreground": "#fff6a3"
       }
     },
     {
@@ -113,12 +113,16 @@
         "constant.numeric"
       ],
       "settings": {
-        "foreground": "#6df08e"
+        "foreground": "#7dff9e"
       }
     },
     {
       "name": "RedAtri",
-      "scope": ["entity.name.tag"],
+      "scope": [
+        "entity.name.tag",
+        "keyword.control.export",
+        "constant.language.boolean"
+      ],
       "settings": {
         "foreground": "#fa68b8"
       }
@@ -135,16 +139,10 @@
       }
     },
     {
-      "name": "MyRed",
-      "scope": [
-        "constant",
-        "string",
-        "support.constant.property-value",
-        "punctuation.definition.string.begin",
-        "punctuation.definition.string.end"
-      ],
+      "name": "Stringss",
+      "scope": ["string"],
       "settings": {
-        "foreground": "#f5e691"
+        "foreground": "#87e0ba"
       }
     },
     {
@@ -180,7 +178,7 @@
         "markup.deleted"
       ],
       "settings": {
-        "foreground": "#af6aff"
+        "foreground": "#be87fd"
       }
     },
     {
@@ -189,8 +187,6 @@
         "string.regexp",
         "markup.changed",
         "markup.inserted",
-        "punctuation.definition.string",
-        "punctuation.definition.markdown",
         "support.type.primitive",
         "support.class.component",
         "entity.name.type"
@@ -220,6 +216,13 @@
       "scope": ["entity.other.inherited-class"],
       "settings": {
         "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "DSDASD",
+      "scope": ["constant"],
+      "settings": {
+        "foreground": "#BD93F9"
       }
     }
   ]

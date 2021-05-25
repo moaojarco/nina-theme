@@ -120,7 +120,8 @@
         "keyword.operator.relational",
         "keyword.control.conditional",
         "keyword.operator.ternary",
-        "keyword.operator.type.annotation"
+        "keyword.operator.type.annotation",
+        "meta.object-literal"
       ],
       "settings": {
         "foreground": "#569cd6"
@@ -130,7 +131,7 @@
       "name": "Yelllow",
       "scope": ["constant", "support.constant.property-value"],
       "settings": {
-        "foreground": "#f3e8a7"
+        "foreground": "#faefb1"
       }
     },
     {
@@ -150,7 +151,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#c6fffc"
+        "foreground": "#aaf0ec"
       }
     },
     {
@@ -196,7 +197,6 @@
         "markup.changed",
         "markup.inserted",
         "support.type.primitive",
-
         "entity.name.type"
       ],
       "settings": {
@@ -217,10 +217,11 @@
         "constant.language.null",
         "constant.language.boolean",
         "constant.language.undefined",
-        "constant.numeric.decimal"
+        "constant.numeric.decimal",
+        "keyword.control.export"
       ],
       "settings": {
-        "foreground": "#f08686"
+        "foreground": "#569cd6"
       }
     },
     {
