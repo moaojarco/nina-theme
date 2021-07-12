@@ -20,3 +20,8 @@
 ## [1.5.4]
 
 - Release Nina A+ theme
+
+## [1.5.6]
+
+- Release Nina A+ Night Theme
+- Added different colors from const and let variables.

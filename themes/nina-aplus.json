@@ -11,9 +11,24 @@
   "tokenColors": [
     {
       "scope": [
+        "meta.template.expression.js",
+        "constant.name.attribute.tag.jade",
+        "punctuation.definition.metadata.markdown",
+        "punctuation.definition.string.end.markdown",
+        "punctuation.definition.string.begin.markdown",
+        "keyword.operator.assignment",
+        "storage.type.function.arrow",
+        "keyword.operator.arithmetic",
+        "keyword.operator.relational",
+        "keyword.control.conditional",
+        "keyword.operator.ternary",
+        "keyword.operator.type.annotation",
+        "keyword.operator.spread",
         "comment",
         "keyword.operator.comparison",
-        "keyword.operator.assignment"
+        "keyword.operator.assignment",
+        "keyword.operator.spread",
+        "keyword.operator.ternary"
       ],
       "settings": {
         "foreground": "#D5CED9"
@@ -55,7 +70,6 @@
         "beginning.punctuation.definition.list.markdown",
         "source.css entity.other.attribute-name.parent-selector",
         "meta.structure.dictionary.json support.type.property-name",
-        "variable.other.constant.object",
         "variable.other.readwrite"
       ],
       "settings": {
@@ -96,7 +110,7 @@
         "entity.name.type.class"
       ],
       "settings": {
-        "foreground": "#b6ebc4"
+        "foreground": "#b8ebc4"
       }
     },
     {
@@ -148,7 +162,8 @@
         "support.type.property-name.json",
         "support.type.property-name.css",
         "entity.other.attribute-name",
-        "variable.parameter"
+        "variable.parameter",
+        "variable.other.constant"
       ],
       "settings": {
         "foreground": "#aaf0ec"

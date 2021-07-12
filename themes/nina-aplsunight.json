@@ -1,5 +1,5 @@
 {
-  "name": "Nina",
+  "name": "Nina+ Night",
   "type": "dark",
   "colors": {
     "editor.background": "#1E1E1E",
@@ -11,7 +11,24 @@
   "tokenColors": [
     {
       "scope": [
+        "meta.template.expression.js",
+        "constant.name.attribute.tag.jade",
+        "punctuation.definition.metadata.markdown",
+        "punctuation.definition.string.end.markdown",
+        "punctuation.definition.string.begin.markdown",
+        "keyword.operator.assignment",
+        "storage.type.function.arrow",
+        "keyword.operator.arithmetic",
+        "keyword.operator.relational",
+        "keyword.control.conditional",
+        "keyword.operator.ternary",
+        "keyword.operator.type.annotation",
+        "keyword.operator.spread",
         "comment",
+        "keyword.operator.comparison",
+        "keyword.operator.assignment",
+        "keyword.operator.spread",
+        "keyword.operator.ternary",
         "keyword.operator.comparison",
         "keyword.operator.assignment",
         "keyword.operator.spread",
@@ -41,17 +58,10 @@
         "punctuation.definition.metadata.markdown",
         "punctuation.definition.string.end.markdown",
         "punctuation.definition.string.begin.markdown",
-        "keyword.operator.assignment",
-        "storage.type.function.arrow",
-        "keyword.operator.arithmetic",
-        "keyword.operator.relational",
-        "keyword.control.conditional",
-        "keyword.operator.ternary",
-        "keyword.operator.type.annotation",
-        "keyword.operator.spread"
+        "storage.type.function.arrow"
       ],
       "settings": {
-        "foreground": "#D5CED9"
+        "foreground": "#e8a1eb"
       }
     },
     {
@@ -67,6 +77,13 @@
         "variable.other.constant.object",
         "variable.other.readwrite"
       ],
+      "settings": {
+        "foreground": "#9CDCFE"
+      }
+    },
+    {
+      "name": "mu yellow",
+      "scope": ["variable.other.readwrite.js"],
       "settings": {
         "foreground": "#fff6a3"
       }
@@ -87,7 +104,7 @@
         "variable.other.object.property.js.jsx"
       ],
       "settings": {
-        "foreground": "#ff9d00"
+        "foreground": "#ffc361"
       }
     },
     {
@@ -105,7 +122,7 @@
         "entity.name.type.class"
       ],
       "settings": {
-        "foreground": "#b6ebc4"
+        "foreground": "#b8ebc4"
       }
     },
     {
@@ -115,45 +132,55 @@
         "variable.language.this.js",
         "variable.language.special.self.python",
         "support.function",
-        "entity.name.function",
-        "entity.other.attribute-name",
-        "constant.numeric"
+        "entity.name.function"
       ],
       "settings": {
-        "foreground": "#7dff9e"
+        "foreground": "#85ff87"
       }
     },
     {
       "name": "RedAtri",
       "scope": [
         "entity.name.tag",
-        "keyword.control.export",
-        "constant.language.boolean"
+        "keyword.operator.arithmetic",
+        "keyword.operator.relational",
+        "keyword.control.conditional",
+        "keyword.operator.type.annotation",
+        "meta.object-literal"
       ],
       "settings": {
-        "foreground": "#fa68b8"
+        "foreground": "#569cd6"
       }
     },
     {
-      "name": "GlossBlue",
+      "name": "Yelllow",
+      "scope": ["constant", "support.constant.property-value"],
+      "settings": {
+        "foreground": "#faefb1"
+      }
+    },
+    {
+      "name": "SJISDJI",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#b5cea8"
+      }
+    },
+    {
+      "name": "YellowStrings",
       "scope": [
-        "variable.other.property",
         "meta.property-value",
-        "support.type.property-name.json"
+        "support.type.property-name.json",
+        "support.type.property-name.css",
+        "entity.other.attribute-name",
+        "variable.parameter"
       ],
       "settings": {
-        "foreground": "#b2cae6"
+        "foreground": "#aaf0ec"
       }
     },
     {
-      "name": "Stringss",
-      "scope": ["string"],
-      "settings": {
-        "foreground": "#ecb19a"
-      }
-    },
-    {
-      "name": "Hot Pink",
+      "name": "Bluesx",
       "scope": [
         "punctuation.definition.interpolation",
         "punctuation.section.embedded.end.php",
@@ -185,7 +212,7 @@
         "markup.deleted"
       ],
       "settings": {
-        "foreground": "#af69ff"
+        "foreground": "#a759ff"
       }
     },
     {
@@ -195,27 +222,10 @@
         "markup.changed",
         "markup.inserted",
         "support.type.primitive",
-        "support.class.component",
         "entity.name.type"
       ],
       "settings": {
         "foreground": "#84cadf"
-      }
-    },
-    {
-      "name": "Green",
-      "scope": [
-        "text.html.php string",
-        "markup.inline.raw",
-        "text.html meta.embedded source.js string",
-        "text.html.php punctuation.definition.string",
-        "text.html meta.embedded source.js punctuation.definition.string",
-        "text.html punctuation.definition.string",
-        "text.html string",
-        "variable.parameter"
-      ],
-      "settings": {
-        "foreground": "#e69e4c"
       }
     },
     {
@@ -225,11 +235,32 @@
         "fontStyle": "underline"
       }
     },
+
     {
-      "name": "DSDASD",
-      "scope": ["constant", "variable.other.constant.object"],
+      "name": "Booleans, Undefined and Null",
+      "scope": [
+        "constant.language.null",
+        "constant.language.boolean",
+        "constant.language.undefined",
+        "constant.numeric.decimal",
+        "keyword.control.export"
+      ],
       "settings": {
-        "foreground": "#9CDCFE"
+        "foreground": "#569cd6"
+      }
+    },
+    {
+      "name": "Components Tags",
+      "scope": ["support.class.component"],
+      "settings": {
+        "foreground": "#4EC9B0"
+      }
+    },
+    {
+      "name": "Stringss",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#ecb19a"
       }
     }
   ]
