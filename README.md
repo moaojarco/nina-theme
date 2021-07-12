@@ -1,16 +1,17 @@
 # Nina Theme
-Themes inspired by Dracula and Dark+
-THIS THEME IS FOR REACT USERS
+
+✨ Themes inspired by Dracula and Dark+ ✨
 
 <div align="center">
-
-# Nina Default
+Recomendation for React Developers
+  
+  <div> <h2> Nina</h2></div>
 
 Inspired by: Dracula Theme
 
 ![Nina](https://i.ibb.co/YDcpbVm/nina.png)
 
-# Nina A+
+## Nina A+
 
 Inspired by: Dark+ Theme
 
@@ -24,5 +25,3 @@ Inspired by: Dark+ Theme
 1. Search for `Nina`, choose "Nina Theme with Pokémon Icon"
 1. Click **Install** to install it
 1. Navigate to File > Preferences > Color Theme > **Nina A+ Theme** (or any of the variants listed)
-
-✨ Designed by **João Marco** ✨
