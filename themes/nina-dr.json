@@ -146,7 +146,7 @@
       }
     },
     {
-      "name": "Stringss",
+      "name": "Strings",
       "scope": ["string"],
       "settings": {
         "foreground": "#ecb19a"
@@ -226,10 +226,17 @@
       }
     },
     {
-      "name": "DSDASD",
+      "name": "Blue Light",
       "scope": ["constant", "variable.other.constant.object"],
       "settings": {
         "foreground": "#9CDCFE"
+      }
+    },
+    {
+      "name": "White Points",
+      "scope": ["punctuation.accessor", "variable.other.object", "variable.other.property"],
+      "settings": {
+        "foreground": "#ffffff"
       }
     }
   ]

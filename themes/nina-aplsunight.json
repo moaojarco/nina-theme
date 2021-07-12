@@ -108,7 +108,7 @@
       }
     },
     {
-      "name": "Yellow",
+      "name": "Light Green",
       "scope": [
         "text.xml string",
         "entity.name.type",
@@ -153,14 +153,14 @@
       }
     },
     {
-      "name": "Yelllow",
+      "name": "Yellow",
       "scope": ["constant", "support.constant.property-value"],
       "settings": {
         "foreground": "#faefb1"
       }
     },
     {
-      "name": "SJISDJI",
+      "name": "Green Feio",
       "scope": ["constant.numeric"],
       "settings": {
         "foreground": "#b5cea8"
@@ -173,14 +173,16 @@
         "support.type.property-name.json",
         "support.type.property-name.css",
         "entity.other.attribute-name",
-        "variable.parameter"
+        "variable.parameter",
+        "variable.other.object",
+        "variable.other.property"
       ],
       "settings": {
         "foreground": "#aaf0ec"
       }
     },
     {
-      "name": "Bluesx",
+      "name": "BlueP",
       "scope": [
         "punctuation.definition.interpolation",
         "punctuation.section.embedded.end.php",
@@ -257,10 +259,17 @@
       }
     },
     {
-      "name": "Stringss",
+      "name": "Strings",
       "scope": ["string"],
       "settings": {
         "foreground": "#ecb19a"
+      }
+    },
+    {
+      "name": "White Points",
+      "scope": ["punctuation.accessor"],
+      "settings": {
+        "foreground": "#ffffff"
       }
     }
   ]
