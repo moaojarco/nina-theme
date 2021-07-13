@@ -65,7 +65,8 @@
         "source.css entity.other.attribute-name.parent-selector",
         "meta.structure.dictionary.json support.type.property-name",
         "variable.other.constant.object",
-        "variable.other.readwrite"
+        "variable.other.readwrite",
+        "variable.other.constant"
       ],
       "settings": {
         "foreground": "#fff6a3"
@@ -87,7 +88,7 @@
         "variable.other.object.property.js.jsx"
       ],
       "settings": {
-        "foreground": "#ff9d00"
+        "foreground": "#ffb86c"
       }
     },
     {
@@ -116,8 +117,7 @@
         "variable.language.special.self.python",
         "support.function",
         "entity.name.function",
-        "entity.other.attribute-name",
-        "constant.numeric"
+        "entity.other.attribute-name"
       ],
       "settings": {
         "foreground": "#7dff9e"
@@ -182,7 +182,8 @@
         "source.css support.function",
         "source.php support.function",
         "support.function.magic.python",
-        "markup.deleted"
+        "markup.deleted",
+        "keyword.control.export"
       ],
       "settings": {
         "foreground": "#af69ff"
@@ -203,7 +204,7 @@
       }
     },
     {
-      "name": "Green",
+      "name": "Texts",
       "scope": [
         "text.html.php string",
         "markup.inline.raw",
@@ -215,7 +216,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#e69e4c"
+        "foreground": "#ffb86c"
       }
     },
     {
