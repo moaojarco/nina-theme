@@ -3,7 +3,7 @@
 ✨ Themes inspired by Dracula and Dark+ ✨
 
 <div align="center">
-Recomendation for React Developers
+Recommended for React Developers
   
   <div> <h2> Nina</h2></div>
 
@@ -11,7 +11,7 @@ Inspired by: Dracula Theme
 
 ![Nina](https://i.ibb.co/YDcpbVm/nina.png)
 
-## Nina A+
+## Nina +
 
 Inspired by: Dark+ Theme
 

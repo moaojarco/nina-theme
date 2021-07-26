@@ -2,7 +2,7 @@
   "name": "nina",
   "displayName": "Nina",
   "description": "A good theme for React Developers",
-  "version": "1.5.8",
+  "version": "0.0.1",
   "engines": {
     "vscode": "^1.56.0"
   },
@@ -10,7 +10,7 @@
   "author": "Moão Jarco",
   "license": "MIT",
   "homepage": "",
-  "icon": "icon2.png",
+  "icon": "icon.png",
   "categories": [
     "Themes",
     "Other"
@@ -21,17 +21,17 @@
       {
         "label": "Nina",
         "uiTheme": "vs-dark",
-        "path": "./themes/nina-dr.json"
+        "path": "./themes/nina.json"
       },
       {
-        "label": "Nina A+",
+        "label": "Nina +",
         "uiTheme": "vs-dark",
-        "path": "./themes/nina-aplus.json"
+        "path": "./themes/nina-plus.json"
       },
       {
-        "label": "Nina A+ Night",
+        "label": "Nina + Night",
         "uiTheme": "vs-dark",
-        "path": "./themes/nina-aplusnight.json"
+        "path": "./themes/nina-night.json"
       }
     ]
   },
