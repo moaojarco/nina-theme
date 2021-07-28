@@ -122,17 +122,11 @@
         "support.type.exception.python",
         "source.css keyword.other.unit",
         "variable.other.object.property.js.jsx",
-        "text.html.php string",
         "markup.inline.raw",
-        "text.html meta.embedded source.js string",
-        "text.html.php punctuation.definition.string",
-        "text.html meta.embedded source.js punctuation.definition.string",
-        "text.html punctuation.definition.string",
-        "text.html string",
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#ffb86c"
+        "foreground": "#f7a54d"
       }
     },
 
@@ -193,7 +187,7 @@
       "name": "Strings",
       "scope": ["string"],
       "settings": {
-        "foreground": "#eba78a"
+        "foreground": "#f2c6b3"
       }
     },
     {
