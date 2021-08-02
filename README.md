@@ -11,7 +11,7 @@ Inspired by: Dracula Theme
 
 ![Nina](https://i.ibb.co/YDcpbVm/nina.png)
 
-## Nina +
+## Nina Night
 
 Inspired by: Dark+ Theme
 
