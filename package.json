@@ -2,7 +2,7 @@
   "name": "nina",
   "displayName": "Nina Theme",
   "description": "Theme for React Developers",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.56.0"
   },
@@ -24,12 +24,7 @@
         "path": "./themes/nina.json"
       },
       {
-        "label": "Nina +",
-        "uiTheme": "vs-dark",
-        "path": "./themes/nina-plus.json"
-      },
-      {
-        "label": "Nina + Night",
+        "label": "Nina Night",
         "uiTheme": "vs-dark",
         "path": "./themes/nina-night.json"
       }
