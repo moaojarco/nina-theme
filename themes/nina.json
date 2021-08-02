@@ -83,7 +83,14 @@
         "string.comment"
       ],
       "settings": {
-        "foreground": "#34ad89"
+        "foreground": "#6272A4"
+      }
+    },
+    {
+      "name": "Null",
+      "scope": ["constant.language.null.js"],
+      "settings":{
+        "foreground":"#BD93F9"
       }
     },
     {
@@ -122,12 +129,20 @@
         "support.type.exception.python",
         "source.css keyword.other.unit",
         "variable.other.object.property.js.jsx",
-        "markup.inline.raw",
-        "variable.parameter"
+        "markup.inline.raw"
       ],
       "settings": {
-        "foreground": "#f7a54d"
+        "foreground": "#FFB86C"
       }
+    },
+    {
+      "name": "orange with italic",
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground":"#FFB86C",
+        "fontStyle": "italic"
+      }
+
     },
 
     {
@@ -148,17 +163,26 @@
       }
     },
     {
-      "name": "Function Name",
+      "name": "Functions",
       "scope": [
         "support.function",
-        "entity.name.function",
+        "entity.name.function"
+      ],
+      "settings":{
+        "foreground":"#7dff9e"
+      }
+    },
+    {
+      "name": "Function Name",
+      "scope": [
         "entity.other.attribute-name.js.jsx",
         "entity.other.attribute-name.pseudo-class",
         "entity.other.attribute-name.pseudo-element",
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#7dff9e"
+        "foreground": "#7dff9e",
+        "fontStyle": "italic"
       }
     },
     {
