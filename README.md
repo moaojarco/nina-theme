@@ -4,10 +4,9 @@
 
 <div align="center">
 Recommended for React Developers
-  
-  <div> <h2> Nina</h2></div>
+  <h1>Syntax</h1>
 
-<h1>Syntax</h1>
+  <div> <h2> Nina</h2></div>
 
 Inspired by: Dracula Theme
 
