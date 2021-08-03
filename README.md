@@ -1,11 +1,13 @@
 # Nina Theme
 
-✨ Themes inspired by Dracula and Dark+ ✨
+✨ Alternative Themes from Dracula and Dark+ ✨
 
 <div align="center">
 Recommended for React Developers
   
   <div> <h2> Nina</h2></div>
+
+<h1>Syntax</h1>
 
 Inspired by: Dracula Theme
 
