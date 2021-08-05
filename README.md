@@ -1,10 +1,6 @@
 # Nina Theme
 
-<<<<<<< HEAD
 ✨ Alternative Themes for Dracula and Dark+ ✨
-=======
-✨ Alternative Themes from Dracula and Dark+ ✨
->>>>>>> a2852f6b343bbe1c5e321d05c3a15c398d0f9c16
 
 <div align="center">
 Recommended for React Developers
