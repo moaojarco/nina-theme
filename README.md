@@ -1,10 +1,8 @@
-# Nina Theme
 
-✨ Alternative Themes for Dracula and Dark+ ✨
 
 <div align="center">
-Recommended for React Developers
-  <h1>Syntax</h1>
+  <p>Recommended for React Developers</p>
+  <p>✨ Alternative Themes for Dracula and Dark+ ✨</p>
 
   <div> <h2> Nina</h2></div>
 
