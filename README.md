@@ -1,6 +1,6 @@
 # Nina Theme
 
-✨ Themes inspired by Dracula and Dark+ ✨
+✨ Alternative Themes for Dracula and Dark+ ✨
 
 <div align="center">
 Recommended for React Developers
@@ -9,13 +9,13 @@ Recommended for React Developers
 
 Inspired by: Dracula Theme
 
-![Nina](https://i.ibb.co/YDcpbVm/nina.png)
+![Nina](https://i.ibb.co/RDXggrY/nina-t.png)
 
 ## Nina Night
 
 Inspired by: Dark+ Theme
 
-![NinaA+](https://i.ibb.co/pfY3qdf/ninaplus.png)
+![Nina Night](https://i.ibb.co/ZGxS7jh/nina-night.png)
 
 </div>
 
