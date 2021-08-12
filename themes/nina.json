@@ -14,7 +14,7 @@
     "editor.findMatchBackground": "#42557B",
     "editor.findMatchHighlightBackground": "#314365",
     "editor.lineHighlightBackground": "#1e1e1e",
-    "editor.selectionBackground": "#1e1e1e",
+    "editor.selectionBackground": "#484848",
     "editorCursor.foreground": "#f8f8f0",
     "editorError.foreground": "#c24038",
     "editorGroup.emptyBackground": "#1e1e1e",
