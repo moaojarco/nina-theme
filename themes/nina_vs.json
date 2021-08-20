@@ -2,7 +2,8 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Nina (Base)",
 	"colors": {
-		"editor.background": "#1E1E1E",
+		"activityBar.background": "#000C18",
+		"editor.background": "#000C18",
 		"editor.foreground": "#D4D4D4",
 		"editor.inactiveSelectionBackground": "#3A3D41",
 		"editorIndentGuide.background": "#404040",
@@ -17,10 +18,10 @@
 		"statusBarItem.remoteForeground": "#FFF",
 		"statusBarItem.remoteBackground": "#16825D",
 		"ports.iconRunningProcessForeground": "#369432",
-		"sideBarSectionHeader.background": "#0000",
+		"sideBar.background": "#000C18",
 		"sideBarSectionHeader.border": "#ccc3",
 		"tab.lastPinnedBorder": "#ccc3",
-		"list.activeSelectionIconForeground": "#FFF"
+		"list.activeSelectionIconForeground": "#FFF",
 	},
 	"tokenColors": [
 		{

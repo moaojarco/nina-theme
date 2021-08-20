@@ -1,7 +1,12 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Nina + Night",
+	"name": "Nina Night",
 	"include": "./nina_vs.json",
+	"colors": {
+		"editor.background": "#111111",
+		"activityBar.background": "#111111",
+		"sideBar.background": "#141414",
+	},
 	"tokenColors": [
 		{
 			"name": "Function declarations",
@@ -20,13 +25,11 @@
 			"name": "Types declaration and references",
 			"scope": [
 				"meta.return-type",
-				"support.class",
 				"support.type",
 				"entity.name.type",
 				"entity.name.namespace",
 				"entity.other.attribute",
 				"entity.name.scope-resolution",
-				"entity.name.class",
 				"storage.type.numeric.go",
 				"storage.type.byte.go",
 				"storage.type.boolean.go",
@@ -55,6 +58,14 @@
 			],
 			"settings": {
 				"foreground": "#4EC9B0"
+			}
+		},
+		{
+			"name": "classos",
+			"scope": ["entity.name.type.class", "entity.name.class"],
+			"settings": {
+				"foreground": "#4EC9B0",
+				"fontStyle": "underline"
 			}
 		},
 		{

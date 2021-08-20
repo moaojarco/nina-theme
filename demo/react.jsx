@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import { connect } from 'redux';
+import React, { Component } from "react";
+import { connect } from "redux";
 
 const Header = () => {
-  <header className="container" />
-}
+  <header className="container" />;
+};
 
 class Home extends Component {
   state = {
-    showNav: true
+    showNav: true,
   };
 
   render() {
@@ -17,13 +17,13 @@ class Home extends Component {
       <div>
         <Header {...opts} menus={menus} />
       </div>
-    )
+    );
   }
 }
 
 const mapStateToProps = ({ menus, user }) => ({
   menus,
   user,
-})
+});
 
-export default connect(mapStateToProps)(Home)
+export default connect(mapStateToProps)(Home);

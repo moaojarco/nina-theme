@@ -1,8 +1,8 @@
 {
   "name": "Nina",
   "type": "dark",
+	"include": "./nina_vs.json",
   "colors": {
-    "activityBar.background": "#000C18",
     "activityBar.foreground": "#D7DAE0",
     "activityBarBadge.background": "#528bff",
     "activityBarBadge.foreground": "#F8FAFD",
@@ -10,7 +10,6 @@
     "diffEditor.insertedTextBackground": "#00809B33",
     "dropdown.background": "#1d1f23",
     "dropdown.border": "#181A1F",
-    "editor.background": "#000C18",
     "editor.findMatchBackground": "#42557B",
     "editor.findMatchHighlightBackground": "#314365",
     "editor.lineHighlightBackground": "#1e1e1e",
@@ -43,7 +42,6 @@
     "scrollbarSlider.activeBackground": "#747D9180",
     "scrollbarSlider.background": "#4E566680",
     "scrollbarSlider.hoverBackground": "#5A637580",
-    "sideBar.background": "#000C18",
     "sideBarSectionHeader.background": "#282c34",
     "statusBar.background": "#000000",
     "statusBar.foreground": "#9da5b4",
