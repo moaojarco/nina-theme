@@ -269,7 +269,7 @@
       "scope": ["entity.name.type.class", "entity.other.inherited-class.js.jsx"], 
       "settings": {
       "foreground": "#8BE9FD",
-      "fontStyle": "normal"
+      "fontStyle": "underline"
     }
     },
     {
