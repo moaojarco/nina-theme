@@ -97,6 +97,21 @@
 			}
 		},
 		{
+      "name": "Tag Name",
+      "scope": [
+        "entity.name.tag.js.jsx",
+        "entity.name.tag.ts.tsx",
+        "entity.name.tag.input.css",
+        "entity.name.tag.html",
+        "keyword.operator.expression.typeof",
+        "storage.modifier.async",
+        "keyword.control.flow"
+      ],
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+		{
 			"name": "Variable and parameter name",
 			"scope": [
 				"variable",
