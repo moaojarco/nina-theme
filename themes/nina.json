@@ -107,7 +107,11 @@
         "source.css entity.other.attribute-name.parent-selector",
         "variable.other.readwrite",
         "variable.other.constant",
-        "entity.other.attribute-name.class"
+        "entity.other.attribute-name.class",
+        "entity.other.attribute-name.class.css",
+        "punctuation.definition.entity.begin.bracket.square.css",
+        "punctuation.definition.entity.end.bracket.square.css",
+        "entity.name.type.module.js"
       ],
       "settings": {
         "foreground": "#fff48f"
@@ -163,10 +167,11 @@
       "name": "Functions",
       "scope": [
         "support.function",
-        "entity.name.function"
+        "entity.name.function",
+        "support.function.misc.scss"
       ],
       "settings":{
-        "foreground":"#7dff9e"
+        "foreground":"#87ffa6"
       }
     },
     {
@@ -183,10 +188,15 @@
       }
     },
     {
-      "name": "Tag Name / Boolean",
+      "name": "Tag Name",
       "scope": [
-        "entity.name.tag",
-        "keyword.control.export"
+        "entity.name.tag.js.jsx",
+        "entity.name.tag.ts.tsx",
+        "entity.name.tag.input.css",
+        "entity.name.tag.html",
+        "keyword.operator.expression.typeof",
+        "storage.modifier.async",
+        "keyword.control.flow"
       ],
       "settings": {
         "foreground": "#fa68b8"
@@ -233,7 +243,6 @@
         "meta.image",
         "markup.italic",
         "source.js support.type",
-        "support.class",
         "keyword.operator",
         "support.constant",
         "text.html.markdown string",
@@ -241,7 +250,7 @@
         "source.php support.function",
         "support.function.magic.python",
         "markup.deleted",
-        "keyword.control.export"
+        "storage.modifier"
       ],
       "settings": {
         "foreground": "#af69ff"
@@ -264,7 +273,7 @@
     },
     {
       "name": "Classes", 
-      "scope": ["entity.name.type.class", "entity.other.inherited-class.js.jsx"], 
+      "scope": ["entity.name.type.class", "entity.other.inherited-class.js"], 
       "settings": {
       "foreground": "#8BE9FD",
       "fontStyle": "underline"
@@ -281,20 +290,20 @@
       "name": "Numbers and Boolean",
       "scope": ["constant.numeric", "constant.language.boolean"],
       "settings": {
-        "foreground": "#BD93F9"
+        "foreground": "#569cd6"
       }
     },
     {
       "name": "This Keyword",
       "scope": "variable.language.this.js.jsx",
       "settings": {
-        "foreground": "#BD93F9",
+        "foreground": "#569cd6",
         "fontStyle": "italic"
       }
     },
     {
       "name": "Inherited CLass",
-      "scope": ["entity.other.inherited-class"],
+      "scope": ["entity.other.inherited-class", "support.constant.property-value.css", "support.constant.vendored.property-value.css", "keyword.other.important.scss"],
       "settings": {
         "foreground":"#feffcc"
       }
