@@ -100,7 +100,7 @@
       "name": "Tag Name",
       "scope": [
         "entity.name.tag.js.jsx",
-        "entity.name.tag.ts.tsx",
+        "entity.name.tag.tsx",
         "entity.name.tag.input.css",
         "entity.name.tag.html",
         "keyword.operator.expression.typeof",

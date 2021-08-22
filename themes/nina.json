@@ -191,7 +191,7 @@
       "name": "Tag Name",
       "scope": [
         "entity.name.tag.js.jsx",
-        "entity.name.tag.ts.tsx",
+        "entity.name.tag.tsx",
         "entity.name.tag.input.css",
         "entity.name.tag.html",
         "keyword.operator.expression.typeof",
@@ -303,7 +303,7 @@
     },
     {
       "name": "Inherited CLass",
-      "scope": ["entity.other.inherited-class", "support.constant.property-value.css", "support.constant.vendored.property-value.css", "keyword.other.important.scss"],
+      "scope": ["entity.other.inherited-class"],
       "settings": {
         "foreground":"#feffcc"
       }
