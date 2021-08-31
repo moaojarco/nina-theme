@@ -1,7 +1,7 @@
 {
   "name": "Nina",
   "type": "dark",
-	"include": "./nina_vs.json",
+  "include": "./nina_vs.json",
   "colors": {
     "activityBar.foreground": "#D7DAE0",
     "activityBarBadge.background": "#528bff",
@@ -76,10 +76,7 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": [
-        "comment",
-        "string.comment"
-      ],
+      "scope": ["comment", "string.comment"],
       "settings": {
         "foreground": "#6272A4"
       }
@@ -87,8 +84,8 @@
     {
       "name": "Null",
       "scope": ["constant.language.null.js"],
-      "settings":{
-        "foreground":"#BD93F9"
+      "settings": {
+        "foreground": "#BD93F9"
       }
     },
     {
@@ -139,12 +136,11 @@
     },
     {
       "name": "orange with italic",
-      "scope": ["variable.parameter"],
+      "scope": ["variable.parameter", "variable.other.jsdoc"],
       "settings": {
-        "foreground":"#FFB86C",
+        "foreground": "#FFB86C",
         "fontStyle": "italic"
       }
-
     },
 
     {
@@ -170,8 +166,8 @@
         "entity.name.function",
         "support.function.misc.scss"
       ],
-      "settings":{
-        "foreground":"#87ffa6"
+      "settings": {
+        "foreground": "#87ffa6"
       }
     },
     {
@@ -272,16 +268,20 @@
       }
     },
     {
-      "name": "Classes", 
-      "scope": ["entity.name.type.class", "entity.other.inherited-class.js"], 
+      "name": "Classes",
+      "scope": ["entity.name.type.class", "entity.other.inherited-class.js"],
       "settings": {
-      "foreground": "#8BE9FD",
-      "fontStyle": "underline"
-    }
+        "foreground": "#8BE9FD",
+        "fontStyle": "underline"
+      }
     },
     {
       "name": "White",
-      "scope": ["punctuation.accessor", "variable.other.object", "variable.other.property"],
+      "scope": [
+        "punctuation.accessor",
+        "variable.other.object",
+        "variable.other.property"
+      ],
       "settings": {
         "foreground": "#ffffff"
       }
@@ -305,7 +305,7 @@
       "name": "Inherited CLass",
       "scope": ["entity.other.inherited-class"],
       "settings": {
-        "foreground":"#feffcc"
+        "foreground": "#feffcc"
       }
     }
   ]
