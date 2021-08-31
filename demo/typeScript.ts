@@ -14,6 +14,16 @@ export const getApi = (req: Request, res: Response) => {
   });
 };
 
+export interface IPerson {
+  mname:string;
+}
+
+class Person: IPerson {
+  constructor(mname:string) {
+    this.mname = mname;
+  }
+}
+
 /**
  * GET /api/facebook
  * Facebook API example.

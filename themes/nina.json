@@ -253,6 +253,14 @@
       }
     },
     {
+      "name": "Purple Bold",
+      "scope": ["keyword.operator.new"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#fa68b8"
+      }
+    },
+    {
       "name": "Blue",
       "scope": [
         "string.regexp",
@@ -295,10 +303,9 @@
     },
     {
       "name": "This Keyword",
-      "scope": "variable.language.this.js.jsx",
+      "scope": "variable.language.this",
       "settings": {
-        "foreground": "#569cd6",
-        "fontStyle": "italic"
+        "foreground": "#569cd6"
       }
     },
     {
