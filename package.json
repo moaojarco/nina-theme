@@ -2,7 +2,7 @@
   "name": "nina",
   "displayName": "Nina Theme",
   "description": "Theme for React Developers",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "engines": {
     "vscode": "^1.56.0"
   },
