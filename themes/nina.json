@@ -192,7 +192,11 @@
         "entity.name.tag.html",
         "keyword.operator.expression.typeof",
         "storage.modifier.async",
-        "keyword.control.flow"
+        "keyword.control.flow",
+        "entity.name.tag.template.html",
+        "entity.name.tag.script.html",
+        "entity.name.tag.style.html",
+        "entity.name.tag.block.any.html"
       ],
       "settings": {
         "foreground": "#fa68b8"
@@ -246,7 +250,8 @@
         "source.php support.function",
         "support.function.magic.python",
         "markup.deleted",
-        "storage.modifier"
+        "storage.modifier",
+        "variable.other.property"
       ],
       "settings": {
         "foreground": "#af69ff"
@@ -287,8 +292,7 @@
       "name": "White",
       "scope": [
         "punctuation.accessor",
-        "variable.other.object",
-        "variable.other.property"
+        "variable.other.object"
       ],
       "settings": {
         "foreground": "#ffffff"
@@ -303,7 +307,7 @@
     },
     {
       "name": "This Keyword",
-      "scope": "variable.language.this",
+      "scope": ["variable.language.this"],
       "settings": {
         "foreground": "#569cd6"
       }
