@@ -195,7 +195,7 @@
 			}
 		},
 		{
-			"scope": "meta.diff.header",
+			"scope": ["meta.diff.header"],
 			"settings": {
 				"foreground": "#569cd6"
 			}

@@ -251,7 +251,7 @@
         "support.function.magic.python",
         "markup.deleted",
         "storage.modifier",
-        "variable.other.property"
+        "variable.other.property.js"
       ],
       "settings": {
         "foreground": "#af69ff"

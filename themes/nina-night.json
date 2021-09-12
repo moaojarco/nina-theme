@@ -105,7 +105,9 @@
         "entity.name.tag.html",
         "keyword.operator.expression.typeof",
         "storage.modifier.async",
-        "keyword.control.flow"
+        "keyword.control.flow",
+		"meta.tag.block.any.html",
+		"entity.name.tag"
       ],
       "settings": {
         "foreground": "#569CD6"
