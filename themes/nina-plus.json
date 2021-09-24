@@ -224,7 +224,15 @@
         "entity.name.tag.js.jsx",
         "entity.name.tag.tsx",
         "entity.name.tag.input.css",
-        "entity.name.tag.html"
+        "entity.name.tag.html",
+        "meta.brace.round.js.jsx",
+        "meta.brace.round.js",
+        "meta.brace.round.ts",
+        "meta.brace.round.ts.tsx",
+        "meta.brace.square.js.jsx",
+        "meta.brace.square.js",
+        "meta.brace.square.ts",
+        "meta.brace.square.ts.tsx"
       ],
       "settings": {
         "foreground": "#F07178"
@@ -341,7 +349,27 @@
         "punctuation.definition.template-expression.begin.tsx",
         "punctuation.definition.template-expression.end.tsx",
         "punctuation.definition.tag.begin.js.jsx",
-        "punctuation.definition.tag.end.js.jsx"
+        "punctuation.definition.tag.end.js.jsx",
+        "punctuation.definition.block.js.jsx",
+        "punctuation.definition.block.js",
+        "punctuation.definition.block.ts",
+        "punctuation.definition.block.ts.tsx",
+        "punctuation.definition.parameters.begin.js.jsx",
+        "punctuation.definition.parameters.end.js.jsx",
+        "punctuation.definition.parameters.begin.js",
+        "punctuation.definition.parameters.end.js",
+        "punctuation.separator.comma.js.jsx",
+        "punctuation.separator.comma.js",
+        "punctuation.separator.comma.ts",
+        "punctuation.separator.comma.ts.tsx",
+        "punctuation.definition.binding-pattern.array.js.jsx",
+        "punctuation.definition.binding-pattern.array.js",
+        "punctuation.definition.binding-pattern.array.ts",
+        "punctuation.definition.binding-pattern.array.ts.tsx",
+        "keyword.operator.arithmetic.js.jsx",
+        "keyword.operator.arithmetic.js",
+        "keyword.operator.arithmetic.ts",
+        "keyword.operator.arithmetic.ts.tsx"
       ],
       "settings": {
         "foreground": "#89DDFF"

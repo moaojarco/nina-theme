@@ -1,8 +1,8 @@
 {
   "name": "nina",
   "displayName": "Nina Theme",
-  "description": "Theme for Javascript Developers",
-  "version": "0.2.4",
+  "description": "Copy of other themes with a Brazilian touch 🔰",
+  "version": "0.2.5",
   "engines": {
     "vscode": "^1.56.0"
   },
@@ -12,8 +12,7 @@
   "homepage": "",
   "icon": "icon.png",
   "categories": [
-    "Themes",
-    "Other"
+    "Themes"
   ],
   "readme": "README.md",
   "contributes": {
