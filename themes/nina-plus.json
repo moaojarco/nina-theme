@@ -77,21 +77,27 @@
     {
       "name": "Comment",
       "scope": [
-        "comment",
-        "string.comment",
-        "variable.other.property.js.jsx",
-        "variable.other.property.js",
+        "variable.other.property",
         "support.variable.property",
-        "variable.parameter",
-        "variable.other.property"
+        "variable.parameter"
       ],
       "settings": {
         "foreground": "#A6ACCD"
       }
     },
     {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "string.comment"
+      ],
+      "settings": {
+        "foreground": "#464B5D"
+      }
+    },
+    {
       "name": "Null",
-      "scope": ["constant.language.null.js"],
+      "scope": ["constant.language.null"],
       "settings": {
         "foreground": "#BD93F9"
       }
@@ -116,7 +122,7 @@
         "entity.other.attribute-name.class.css",
         "punctuation.definition.entity.begin.bracket.square.css",
         "punctuation.definition.entity.end.bracket.square.css",
-        "entity.name.type.module.js"
+        "entity.name.type.module"
       ],
       "settings": {
         "foreground": "#fff48f"
@@ -145,11 +151,11 @@
     {
       "name": "Keywords",
       "scope": [
-        "storage.type.function.js",
-        "storage.modifier.async.js.jsx",
-        "storage.type.function.js.jsx",
+        "storage.type.function",
+        "storage.modifier.async",
         "keyword.operator.logical",
-        "keyword.operator.comparison"
+        "keyword.operator.comparison",
+        "storage.modifier"
       ],
       "settings": {
         "foreground": "#b473ff"
@@ -169,11 +175,10 @@
         "text.xml string",
         "entity.name.type",
         "meta.at-rule.extend",
-        "entity.other.keyframe-offset.css",
-        "text.html.markdown string.quoted",
+        "entity.other.keyframe-offset",
         "meta.function-call.generic.python",
         "meta.at-rule.extend support.constant",
-        "entity.other.attribute-name.js.jsx"
+        "entity.other.attribute-name"
       ],
       "settings": {
         "foreground": "#b6ebc4"
@@ -217,22 +222,16 @@
     {
       "name": "Html, jsx, tsx",
       "scope": [
-        "entity.name.tag.template.html",
-        "entity.name.tag.script.html",
-        "entity.name.tag.style.html",
-        "entity.name.tag.block.any.html",
+        "entity.name.tag.template",
+        "entity.name.tag.script",
+        "entity.name.tag.style",
+        "entity.name.tag.block.any",
         "entity.name.tag.js.jsx",
         "entity.name.tag.tsx",
         "entity.name.tag.input.css",
         "entity.name.tag.html",
-        "meta.brace.round.js.jsx",
-        "meta.brace.round.js",
-        "meta.brace.round.ts",
-        "meta.brace.round.ts.tsx",
-        "meta.brace.square.js.jsx",
-        "meta.brace.square.js",
-        "meta.brace.square.ts",
-        "meta.brace.square.ts.tsx"
+        "meta.brace.round",
+        "meta.brace.square"
       ],
       "settings": {
         "foreground": "#F07178"
@@ -249,10 +248,7 @@
       "name": "BlueP",
       "scope": [
         "punctuation.definition.interpolation",
-        "punctuation.section.embedded.end.php",
-        "punctuation.section.embedded.end.ruby",
-        "punctuation.section.embedded.begin.php",
-        "punctuation.section.embedded.begin.ruby",
+        "punctuation.section.embedded",
         "punctuation.definition.template-expression"
       ],
       "settings": {
@@ -262,9 +258,11 @@
     {
       "name": "Purple",
       "scope": [
-        "keyword.control.conditional.js.jsx",
-        "keyword.control.flow.js.jsx",
-        "keyword.control.flow.js"
+        "keyword.control.conditional",
+        "keyword.control.loop",
+        "keyword.control.flow",
+        "keyword.control.export",
+        "keyword.control.default.js"
       ],
       "settings": {
         "foreground": "#89DDFF",
@@ -295,9 +293,9 @@
     },
     {
       "name": "Classes",
-      "scope": ["entity.name.type.class", "entity.other.inherited-class.js"],
+      "scope": ["entity.name.type.class", "entity.other.inherited-class"],
       "settings": {
-        "foreground": "#8BE9FD",
+        "foreground": "#FFCB6B",
         "fontStyle": "underline"
       }
     },
@@ -339,37 +337,22 @@
     {
       "name": "Points",
       "scope": [
-        "punctuation.accessor.js.jsx",
-        "punctuation.definition.template-expression.begin.js.jsx",
-        "punctuation.definition.template-expression.end.js.jsx",
-        "punctuation.definition.template-expression.begin.js",
-        "punctuation.definition.template-expression.end.js",
-        "punctuation.definition.template-expression.begin.ts",
-        "punctuation.definition.template-expression.end.ts",
-        "punctuation.definition.template-expression.begin.tsx",
-        "punctuation.definition.template-expression.end.tsx",
-        "punctuation.definition.tag.begin.js.jsx",
-        "punctuation.definition.tag.end.js.jsx",
-        "punctuation.definition.block.js.jsx",
-        "punctuation.definition.block.js",
-        "punctuation.definition.block.ts",
-        "punctuation.definition.block.ts.tsx",
-        "punctuation.definition.parameters.begin.js.jsx",
-        "punctuation.definition.parameters.end.js.jsx",
-        "punctuation.definition.parameters.begin.js",
-        "punctuation.definition.parameters.end.js",
-        "punctuation.separator.comma.js.jsx",
-        "punctuation.separator.comma.js",
-        "punctuation.separator.comma.ts",
-        "punctuation.separator.comma.ts.tsx",
-        "punctuation.definition.binding-pattern.array.js.jsx",
-        "punctuation.definition.binding-pattern.array.js",
-        "punctuation.definition.binding-pattern.array.ts",
-        "punctuation.definition.binding-pattern.array.ts.tsx",
-        "keyword.operator.arithmetic.js.jsx",
-        "keyword.operator.arithmetic.js",
-        "keyword.operator.arithmetic.ts",
-        "keyword.operator.arithmetic.ts.tsx"
+        "punctuation.accessor",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end",
+        "punctuation.definition.block",
+        "punctuation.definition.parameters.begin",
+        "punctuation.definition.parameters.end",
+        "punctuation.separator.comma",
+        "punctuation.definition.binding-pattern.array",
+        "keyword.operator.arithmetic",
+        "keyword.operator.increment",
+        "keyword.operator.relational",
+        "punctuation.terminator.statement",
+        "keyword.operator.quantifier.regexp",
+        "keyword.operator.assignment"
       ],
       "settings": {
         "foreground": "#89DDFF"

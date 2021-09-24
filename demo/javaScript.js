@@ -1,4 +1,5 @@
 import _, { every, foo } from 'lodash';
+"kkkk"
 
 var allTrue = every([
   10 === 3,

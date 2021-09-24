@@ -1,6 +1,5 @@
 <div align="center">
-  <p>Recommended for React Developers</p>
-  <p>✨ Alternative Themes for Dracula and Dark+ ✨</p>
+  <p>✨ Alternative Themes for Dracula/ Dark+ / Material Theme✨</p>
 </div>
 
 <div>
