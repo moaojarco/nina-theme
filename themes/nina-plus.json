@@ -76,7 +76,15 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment", "string.comment", "variable.other.property.js.jsx","variable.other.property.js" , "support.variable.property"],
+      "scope": [
+        "comment",
+        "string.comment",
+        "variable.other.property.js.jsx",
+        "variable.other.property.js",
+        "support.variable.property",
+        "variable.parameter",
+        "variable.other.property"
+      ],
       "settings": {
         "foreground": "#A6ACCD"
       }
@@ -111,7 +119,7 @@
         "entity.name.type.module.js"
       ],
       "settings": {
-        "foreground": "#fcf39a"
+        "foreground": "#fff48f"
       }
     },
     {
@@ -136,17 +144,22 @@
     },
     {
       "name": "Keywords",
-      "scope": ["keyword.control", "storage.type", "storage.type.function"],
+      "scope": [
+        "storage.type.function.js",
+        "storage.modifier.async.js.jsx",
+        "storage.type.function.js.jsx",
+        "keyword.operator.logical",
+        "keyword.operator.comparison"
+      ],
       "settings": {
         "foreground": "#b473ff"
       }
     },
     {
       "name": "orange with italic",
-      "scope": ["variable.parameter", "variable.other.jsdoc"],
+      "scope": ["variable.other.jsdoc"],
       "settings": {
-        "foreground": "#FFB86C",
-        "fontStyle": "italic"
+        "foreground": "#FFB86C"
       }
     },
 
@@ -174,7 +187,7 @@
         "support.function.misc.scss"
       ],
       "settings": {
-        "foreground": "#8fffac"
+        "foreground": "#82ffa7"
       }
     },
     {
@@ -198,7 +211,7 @@
         "keyword.control.flow"
       ],
       "settings": {
-        "foreground": "#fa68b8"
+        "foreground": "#b473ff"
       }
     },
     {
@@ -215,17 +228,6 @@
       ],
       "settings": {
         "foreground": "#F07178"
-      }
-    },
-    {
-      "name": "Properties",
-      "scope": [
-        "variable.other.property",
-        "meta.property-value",
-        "support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#F8F8F2"
       }
     },
     {
@@ -252,23 +254,13 @@
     {
       "name": "Purple",
       "scope": [
-        "storage",
-        "keyword",
-        "meta.link",
-        "meta.image",
-        "markup.italic",
-        "source.js support.type",
-        "keyword.operator",
-        "support.constant",
-        "text.html.markdown string",
-        "source.css support.function",
-        "source.php support.function",
-        "support.function.magic.python",
-        "markup.deleted",
-        "storage.modifier"
+        "keyword.control.conditional.js.jsx",
+        "keyword.control.flow.js.jsx",
+        "keyword.control.flow.js"
       ],
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#89DDFF",
+        "fontStyle": "italic"
       }
     },
     {
@@ -290,7 +282,7 @@
         "entity.name.type"
       ],
       "settings": {
-        "foreground": "#8BE9FD"
+        "foreground": "#FFCB6B"
       }
     },
     {
@@ -334,6 +326,25 @@
       "scope": ["entity.other.inherited-class"],
       "settings": {
         "foreground": "#feffcc"
+      }
+    },
+    {
+      "name": "Points",
+      "scope": [
+        "punctuation.accessor.js.jsx",
+        "punctuation.definition.template-expression.begin.js.jsx",
+        "punctuation.definition.template-expression.end.js.jsx",
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js",
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts",
+        "punctuation.definition.template-expression.begin.tsx",
+        "punctuation.definition.template-expression.end.tsx",
+        "punctuation.definition.tag.begin.js.jsx",
+        "punctuation.definition.tag.end.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
       }
     }
   ]
