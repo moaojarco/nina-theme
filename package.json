@@ -2,7 +2,7 @@
   "name": "nina",
   "displayName": "Nina Theme",
   "description": "Copy of other themes 🤏",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "engines": {
     "vscode": "^1.56.0"
   },
