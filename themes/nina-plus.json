@@ -222,19 +222,25 @@
     {
       "name": "Html, jsx, tsx",
       "scope": [
-        "entity.name.tag.template",
-        "entity.name.tag.script",
-        "entity.name.tag.style",
-        "entity.name.tag.block.any",
-        "entity.name.tag.js.jsx",
-        "entity.name.tag.tsx",
-        "entity.name.tag.input.css",
-        "entity.name.tag.html",
-        "meta.brace.round",
-        "meta.brace.square"
+        "entity.name.tag",
+        "meta.method.declaration",
+        "meta.class",
+        "source.js"
       ],
       "settings": {
         "foreground": "#F07178"
+      }
+    },
+    {
+      "name": "Square",
+      "scope": [
+        "meta.brace.square",
+        "meta.brace.round",
+        "meta.array.literal",
+        "meta.var.expr"
+      ],
+      "settings": {
+        "foreground": "#A6ACCD"
       }
     },
     {
@@ -295,8 +301,7 @@
       "name": "Classes",
       "scope": ["entity.name.type.class", "entity.other.inherited-class"],
       "settings": {
-        "foreground": "#FFCB6B",
-        "fontStyle": "underline"
+        "foreground": "#FFCB6B"
       }
     },
     {
@@ -310,7 +315,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#2b91e0"
       }
     },
     {
@@ -325,13 +330,6 @@
       "scope": ["variable.language.this", "punctuation.definition.string"],
       "settings": {
         "foreground": "#89DDFF"
-      }
-    },
-    {
-      "name": "Inherited CLass",
-      "scope": ["entity.other.inherited-class"],
-      "settings": {
-        "foreground": "#feffcc"
       }
     },
     {

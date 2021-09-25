@@ -53,6 +53,14 @@ const makeRequest = (url) => {
   });
 }
 
+const Button = () => {
+  return (
+    <div>
+      um dois três.
+    </div>
+  )
+}
+
 async function getUser(id) {
   let user = await makeRequest(`https://api.github.com/users/${id}`);
   return user
