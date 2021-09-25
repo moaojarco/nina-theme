@@ -1,5 +1,6 @@
 <div align="center">
   <p>✨ Alternative Themes for Dracula/ Dark+ / Material Theme✨</p>
+  <p> Use Bracket Pair Colorizer 2 Extension 🥱</p>
 </div>
 
 <div>
