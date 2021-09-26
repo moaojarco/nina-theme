@@ -237,7 +237,9 @@
         "meta.brace.square",
         "meta.brace.round",
         "meta.array.literal",
-        "meta.var.expr"
+        "meta.var.expr",
+        "meta.jsx.children",
+        "text.html.derivative"
       ],
       "settings": {
         "foreground": "#A6ACCD"
