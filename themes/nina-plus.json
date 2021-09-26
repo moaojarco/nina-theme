@@ -82,7 +82,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#A6ACCD"
+        "foreground": "#b4bade"
       }
     },
     {
@@ -264,13 +264,15 @@
       }
     },
     {
-      "name": "Purple",
+      "name": "Cyan",
       "scope": [
         "keyword.control.conditional",
         "keyword.control.loop",
         "keyword.control.flow",
         "keyword.control.export",
-        "keyword.control.default.js"
+        "keyword.control.default",
+        "keyword.control.switch"
+        
       ],
       "settings": {
         "foreground": "#89DDFF",
@@ -329,7 +331,7 @@
     },
     {
       "name": "This Keyword",
-      "scope": ["variable.language.this", "punctuation.definition.string"],
+      "scope": ["variable.language.this", "punctuation.definition.string", "punctuation.separator.parameter", "punctuation.definition.section.case-statement"],
       "settings": {
         "foreground": "#89DDFF"
       }
@@ -352,7 +354,8 @@
         "keyword.operator.relational",
         "punctuation.terminator.statement",
         "keyword.operator.quantifier.regexp",
-        "keyword.operator.assignment"
+        "keyword.operator.assignment",
+        "punctuation.separator.key-value"
       ],
       "settings": {
         "foreground": "#89DDFF"
