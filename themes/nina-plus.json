@@ -162,6 +162,14 @@
       }
     },
     {
+      "name": "Switch Case",
+      "scope": ["keyword.control.switch"],
+      "settings": {
+        "foreground": "#b473ff",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "orange with italic",
       "scope": ["variable.other.jsdoc"],
       "settings": {
@@ -270,9 +278,7 @@
         "keyword.control.loop",
         "keyword.control.flow",
         "keyword.control.export",
-        "keyword.control.default",
-        "keyword.control.switch"
-        
+        "keyword.control.default"
       ],
       "settings": {
         "foreground": "#89DDFF",
@@ -319,14 +325,14 @@
       "name": "Numbers",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#2b91e0"
+        "foreground": "#899dff"
       }
     },
     {
       "name": "Boolean",
-      "scope": ["constant.language.boolean"],
+      "scope": ["constant.language.boolean", "meta.brace.round"],
       "settings": {
-        "foreground": "#FF9CAC"
+        "foreground": "#ff8080"
       }
     },
     {
@@ -342,11 +348,9 @@
         "punctuation.accessor",
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
-        "punctuation.definition.tag.begin",
-        "punctuation.definition.tag.end",
+        "punctuation.definition.tag",
         "punctuation.definition.block",
-        "punctuation.definition.parameters.begin",
-        "punctuation.definition.parameters.end",
+        "punctuation.definition.parameters",
         "punctuation.separator.comma",
         "punctuation.definition.binding-pattern.array",
         "keyword.operator.arithmetic",
