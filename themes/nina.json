@@ -108,7 +108,8 @@
         "entity.other.attribute-name.class.css",
         "punctuation.definition.entity.begin.bracket.square.css",
         "punctuation.definition.entity.end.bracket.square.css",
-        "entity.name.type.module.js"
+        "entity.name.type.module.js",
+        "variable.other.object.js.jsx"
       ],
       "settings": {
         "foreground": "#fff48f"
@@ -266,33 +267,28 @@
       }
     },
     {
-      "name": "Blue",
-      "scope": [
-        "string.regexp",
-        "markup.changed",
-        "markup.inserted",
-        "support.type.primitive",
-        "support.class.component",
-        "entity.name.type"
-      ],
+      "name": "Classes",
+      "scope": ["entity.name.type.class", "support.class.component.js.jsx"],
+      "settings": {
+        "foreground": "#8BE9FD"
+      }
+    },
+    {
+      "name": "Classes ++",
+      "scope": ["support.class"],
       "settings": {
         "foreground": "#8BE9FD",
         "fontStyle": "italic"
       }
     },
     {
-      "name": "Classes",
-      "scope": ["entity.name.type.class", "entity.other.inherited-class.js"],
-      "settings": {
-        "foreground": "#8BE9FD",
-        "fontStyle": "underline"
-      }
-    },
-    {
       "name": "White",
       "scope": [
         "punctuation.accessor",
-        "variable.other.object"
+        "variable.other.object",
+        "meta.objectliteral.js",
+        "support.type",
+        "variable.other.property.js.jsx"
       ],
       "settings": {
         "foreground": "#ffffff"

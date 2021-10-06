@@ -99,7 +99,7 @@
       "name": "Null",
       "scope": ["constant.language.null"],
       "settings": {
-        "foreground": "#BD93F9"
+        "foreground": "#89DDFF"
       }
     },
     {
@@ -330,9 +330,16 @@
     },
     {
       "name": "Boolean",
-      "scope": ["constant.language.boolean", "meta.brace.round"],
+      "scope": ["constant.language.boolean"],
       "settings": {
-        "foreground": "#ff8080"
+        "foreground": "#FF9CAC"
+      }
+    },
+    {
+      "name": "Meta Brace",
+      "scope": ["meta.brace.round"],
+      "settings": {
+        "foreground": "#F07178"
       }
     },
     {
