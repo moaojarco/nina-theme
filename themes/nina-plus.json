@@ -87,10 +87,7 @@
     },
     {
       "name": "Comment",
-      "scope": [
-        "comment",
-        "string.comment"
-      ],
+      "scope": ["comment", "string.comment"],
       "settings": {
         "foreground": "#464B5D"
       }
@@ -344,7 +341,12 @@
     },
     {
       "name": "This Keyword",
-      "scope": ["variable.language.this", "punctuation.definition.string", "punctuation.separator.parameter", "punctuation.definition.section.case-statement"],
+      "scope": [
+        "variable.language.this",
+        "punctuation.definition.string",
+        "punctuation.separator.parameter",
+        "punctuation.definition.section.case-statement"
+      ],
       "settings": {
         "foreground": "#89DDFF"
       }

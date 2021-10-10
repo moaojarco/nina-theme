@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { connect } from "redux";
+import React, { Component } from 'react';
+import { connect } from 'redux';
 
 const Header = () => {
   <header className="container" />;
