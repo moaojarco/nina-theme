@@ -11,3 +11,7 @@
 ## [0.2.2]
 
 - Release Nina Plus (Material Theme Clone with Nina base)
+
+## [0.3.2]
+
+- Same background to all themes
