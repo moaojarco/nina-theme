@@ -93,11 +93,14 @@
       "scope": [
         "support.type.property-name",
         "variable.object.property",
-        "punctuation.definition.typeparameters.begin.tsx",
-        "punctuation.definition.typeparameters.end.tsx"
+        "punctuation.definition.typeparameters.begin",
+        "punctuation.definition.typeparameters.end",
+        "meta.brace.round",
+        "punctuation.definition.binding-pattern.array",
+        "meta.jsx.children"
       ],
       "settings": {
-        "foreground": "#FCF7F7"
+        "foreground": "#D4D4D4"
       }
     },
     {
