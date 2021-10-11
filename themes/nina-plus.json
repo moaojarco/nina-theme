@@ -107,25 +107,6 @@
       }
     },
     {
-      "name": "Variables ++",
-      "scope": [
-        "entity.name.tag.yaml",
-        "constant.character.entity.html",
-        "source.css entity.name.tag.reference",
-        "source.css entity.other.attribute-name.parent-selector",
-        "variable.other.readwrite",
-        "variable.other.constant",
-        "entity.other.attribute-name.class",
-        "entity.other.attribute-name.class.css",
-        "punctuation.definition.entity.begin.bracket.square.css",
-        "punctuation.definition.entity.end.bracket.square.css",
-        "entity.name.type.module"
-      ],
-      "settings": {
-        "foreground": "#fff48f"
-      }
-    },
-    {
       "name": "Orange",
       "scope": [
         "markup.bold",
@@ -143,19 +124,6 @@
       ],
       "settings": {
         "foreground": "#FFB86C"
-      }
-    },
-    {
-      "name": "Keywords",
-      "scope": [
-        "storage.type.function",
-        "storage.modifier.async",
-        "keyword.operator.logical",
-        "keyword.operator.comparison",
-        "storage.modifier"
-      ],
-      "settings": {
-        "foreground": "#b473ff"
       }
     },
     {
@@ -187,17 +155,6 @@
       ],
       "settings": {
         "foreground": "#b6ebc4"
-      }
-    },
-    {
-      "name": "Functions",
-      "scope": [
-        "support.function",
-        "entity.name.function",
-        "support.function.misc.scss"
-      ],
-      "settings": {
-        "foreground": "#82ffa7"
       }
     },
     {

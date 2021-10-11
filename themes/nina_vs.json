@@ -197,7 +197,33 @@
     {
       "scope": ["storage", "storage.type"],
       "settings": {
-        "foreground": "#af69ff"
+        "foreground": "#b278f5"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag.yaml",
+        "constant.character.entity.html",
+        "source.css entity.name.tag.reference",
+        "source.css entity.other.attribute-name.parent-selector",
+        "variable"
+      ],
+      "settings": {
+        "foreground": "#faf2a5"
+      }
+    },
+    {
+      "scope": [
+        "support.function",
+        "entity.name.function",
+        "support.function.misc.scss",
+        "entity.other.attribute-name.js.jsx",
+        "entity.other.attribute-name.pseudo-class",
+        "entity.other.attribute-name.pseudo-element",
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#93edaa"
       }
     },
     {
@@ -264,13 +290,13 @@
     {
       "scope": "keyword",
       "settings": {
-        "foreground": "#af69ff"
+        "foreground": "#b278f5"
       }
     },
     {
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#af69ff"
+        "foreground": "#b278f5"
       }
     },
     {

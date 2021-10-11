@@ -96,26 +96,6 @@
       }
     },
     {
-      "name": "Variables ++",
-      "scope": [
-        "entity.name.tag.yaml",
-        "constant.character.entity.html",
-        "source.css entity.name.tag.reference",
-        "source.css entity.other.attribute-name.parent-selector",
-        "variable.other.readwrite",
-        "variable.other.constant",
-        "entity.other.attribute-name.class",
-        "entity.other.attribute-name.class.css",
-        "punctuation.definition.entity.begin.bracket.square.css",
-        "punctuation.definition.entity.end.bracket.square.css",
-        "entity.name.type.module.js",
-        "variable.other.object.js.jsx"
-      ],
-      "settings": {
-        "foreground": "#fff48f"
-      }
-    },
-    {
       "name": "Orange",
       "scope": [
         "markup.bold",
@@ -143,61 +123,14 @@
         "fontStyle": "italic"
       }
     },
-
-    {
-      "name": "Limes",
-      "scope": [
-        "text.xml string",
-        "entity.name.type",
-        "meta.at-rule.extend",
-        "entity.other.keyframe-offset.css",
-        "text.html.markdown string.quoted",
-        "meta.function-call.generic.python",
-        "meta.at-rule.extend support.constant",
-        "entity.other.attribute-name.js.jsx"
-      ],
-      "settings": {
-        "foreground": "#b6ebc4"
-      }
-    },
-    {
-      "name": "Functions",
-      "scope": [
-        "support.function",
-        "entity.name.function",
-        "support.function.misc.scss"
-      ],
-      "settings": {
-        "foreground": "#87ffa6"
-      }
-    },
-    {
-      "name": "Function Name",
-      "scope": [
-        "entity.other.attribute-name.js.jsx",
-        "entity.other.attribute-name.pseudo-class",
-        "entity.other.attribute-name.pseudo-element",
-        "entity.other.attribute-name"
-      ],
-      "settings": {
-        "foreground": "#7dff9e",
-        "fontStyle": "italic"
-      }
-    },
     {
       "name": "Tag Name",
       "scope": [
-        "entity.name.tag.js.jsx",
-        "entity.name.tag.tsx",
-        "entity.name.tag.input.css",
-        "entity.name.tag.html",
+        "entity.name.tag",
+        "entity.name.tag.block.any.html",
         "keyword.operator.expression.typeof",
         "storage.modifier.async",
-        "keyword.control.flow",
-        "entity.name.tag.template.html",
-        "entity.name.tag.script.html",
-        "entity.name.tag.style.html",
-        "entity.name.tag.block.any.html"
+        "keyword.control.flow"
       ],
       "settings": {
         "foreground": "#fa68b8"
@@ -255,7 +188,7 @@
         "variable.other.property.js"
       ],
       "settings": {
-        "foreground": "#af69ff"
+        "foreground": "#ba87f5"
       }
     },
     {
