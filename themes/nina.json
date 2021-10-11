@@ -95,6 +95,9 @@
         "variable.object.property",
         "punctuation.definition.typeparameters.begin",
         "punctuation.definition.typeparameters.end",
+        "punctuation.definition.parameters.begin",
+        "punctuation.definition.parameters.end",
+        "punctuation.definition.block",
         "meta.brace.round",
         "punctuation.definition.binding-pattern.array",
         "meta.jsx.children"
