@@ -23,3 +23,7 @@
 ## [0.3.7]
 
 - Updated Screenshots in README.md
+
+## [0.3.9]
+
+- Fix comma, terminator, etc.

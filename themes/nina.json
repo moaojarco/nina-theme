@@ -100,7 +100,9 @@
         "punctuation.definition.block",
         "meta.brace.round",
         "punctuation.definition.binding-pattern.array",
-        "meta.jsx.children"
+        "meta.jsx.children",
+        "punctuation.separator.comma",
+        "punctuation.terminator.statement"
       ],
       "settings": {
         "foreground": "#D4D4D4"
@@ -133,18 +135,12 @@
         "support.type.exception.python",
         "source.css keyword.other.unit",
         "variable.other.object.property.js.jsx",
-        "markup.inline.raw"
+        "markup.inline.raw",
+        "variable.parameter",
+        "variable.other.jsdoc"
       ],
       "settings": {
         "foreground": "#FFB86C"
-      }
-    },
-    {
-      "name": "orange with italic",
-      "scope": ["variable.parameter", "variable.other.jsdoc"],
-      "settings": {
-        "foreground": "#FFB86C",
-        "fontStyle": "italic"
       }
     },
     {
