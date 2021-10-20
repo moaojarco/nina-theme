@@ -166,8 +166,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#C792EA",
-        "fontStyle": "italic"
+        "foreground": "#C792EA"
       }
     },
     {
@@ -263,7 +262,11 @@
     },
     {
       "name": "Classes",
-      "scope": ["entity.name.type.class", "entity.other.inherited-class"],
+      "scope": [
+        "entity.name.type.class",
+        "entity.other.inherited-class",
+        "invalid.illegal.unrecognized-tag.html"
+      ],
       "settings": {
         "foreground": "#FFCB6B"
       }

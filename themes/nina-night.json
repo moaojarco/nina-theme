@@ -115,7 +115,11 @@
     },
     {
       "name": "classos",
-      "scope": ["entity.name.type.class", "entity.name.class"],
+      "scope": [
+        "entity.name.type.class",
+        "entity.name.class",
+        "invalid.illegal.unrecognized-tag.html"
+      ],
       "settings": {
         "foreground": "#4EC9B0"
       }

@@ -221,7 +221,11 @@
     },
     {
       "name": "Classes",
-      "scope": ["entity.name.type.class", "support.class.component.js.jsx"],
+      "scope": [
+        "entity.name.type.class",
+        "support.class.component.js.jsx",
+        "invalid.illegal.unrecognized-tag.html"
+      ],
       "settings": {
         "foreground": "#8BE9FD"
       }
