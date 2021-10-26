@@ -32,11 +32,6 @@
         "uiTheme": "vs-dark",
         "path": "./themes/nina-night.json"
       }
-      // {
-      //   "label": "Nina Pro",
-      //   "uiTheme": "vs-dark",
-      //   "path": "./themes/nina-pro.json"
-      // }
     ]
   },
   "repository": {
