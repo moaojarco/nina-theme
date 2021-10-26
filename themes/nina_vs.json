@@ -300,7 +300,11 @@
       }
     },
     {
-      "scope": "keyword.operator",
+      "scope": [
+        "keyword.operator",
+        "storage.type.function.arrow",
+        "keyword.operator.assignment"
+      ],
       "settings": {
         "foreground": "#d4d4d4"
       }

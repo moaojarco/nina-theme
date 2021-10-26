@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'redux';
 
-const Header = () => {
-  <header className="container" />;
+const Header = ({ children }) => {
+  <header className="container">{children}</header>;
 };
 
 class Home extends Component {
