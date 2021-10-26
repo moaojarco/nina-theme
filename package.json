@@ -2,7 +2,7 @@
   "name": "nina",
   "displayName": "Nina Theme",
   "description": "Alternatives for Dracula, Dark+ and Material Theme",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "engines": {
     "vscode": "^1.56.0"
   },
@@ -23,14 +23,14 @@
         "path": "./themes/nina.json"
       },
       {
+        "label": "Nina+",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nina-plus.json"
+      },
+      {
         "label": "Nina Night",
         "uiTheme": "vs-dark",
         "path": "./themes/nina-night.json"
-      },
-      {
-        "label": "Nina Plus",
-        "uiTheme": "vs-dark",
-        "path": "./themes/nina-plus.json"
       }
       // {
       //   "label": "Nina Pro",
