@@ -166,8 +166,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#C792EA",
-        "fontStyle": "italic"
+        "foreground": "#C792EA"
       }
     },
     {
@@ -264,7 +263,11 @@
     },
     {
       "name": "Classes",
-      "scope": ["entity.name.type.class", "entity.other.inherited-class"],
+      "scope": [
+        "entity.name.type.class",
+        "entity.other.inherited-class",
+        "invalid.illegal.unrecognized-tag.html"
+      ],
       "settings": {
         "foreground": "#FFCB6B"
       }
@@ -291,15 +294,35 @@
       }
     },
     {
+      "name": "paranteses parameters",
+      "scope": [
+        "punctuation.definition.parameters",
+        "punctuation.definition.block",
+        "meta.brace.round",
+        "punctuation.definition.binding-pattern.object",
+        "punctuation.terminator.statement",
+        "punctuation.section.property-list",
+        "punctuation.separator.key-value",
+        "punctuation.terminator.rule",
+        "punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#aca9b0"
+      }
+    },
+    {
       "name": "This Keyword",
       "scope": [
         "variable.language.this",
         "punctuation.definition.string",
         "punctuation.separator.parameter",
-        "punctuation.definition.section.case-statement"
+        "punctuation.definition.section.case-statement",
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end",
+        "punctuation.definition.binding-pattern.array"
       ],
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#aca9b0"
       }
     }
   ]

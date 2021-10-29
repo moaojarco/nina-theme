@@ -14,11 +14,6 @@ export const getApi = (req: Request, res: Response) => {
   });
 };
 
-interface IPerson {
-  
-}
-
-const num1: IPerson = 23;
 
 export interface IPerson {
   mname:string;

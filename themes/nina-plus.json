@@ -115,7 +115,11 @@
     },
     {
       "name": "classos",
-      "scope": ["entity.name.type.class", "entity.name.class"],
+      "scope": [
+        "entity.name.type.class",
+        "entity.name.class",
+        "invalid.illegal.unrecognized-tag.html"
+      ],
       "settings": {
         "foreground": "#4EC9B0"
       }
@@ -161,7 +165,8 @@
         "variable.other.readwrite.alias.js",
         "entity.name.type.module.js", // placeholders in strings
         "variable.parameter",
-        "meta.object-literal.key"
+        "meta.object-literal.key",
+        "variable.parameter"
       ],
       "settings": {
         "foreground": "#9CDCFE"

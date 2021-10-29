@@ -92,7 +92,7 @@
     {
       "scope": "invalid",
       "settings": {
-        "foreground": "#f44747"
+        "foreground": "#71cca2"
       }
     },
     {
@@ -209,7 +209,7 @@
         "variable"
       ],
       "settings": {
-        "foreground": "#faf2a5"
+        "foreground": "#f5eb9f"
       }
     },
     {
@@ -300,7 +300,11 @@
       }
     },
     {
-      "scope": "keyword.operator",
+      "scope": [
+        "keyword.operator",
+        "storage.type.function.arrow",
+        "keyword.operator.assignment"
+      ],
       "settings": {
         "foreground": "#d4d4d4"
       }
