@@ -115,7 +115,8 @@
         "meta.type.parameters",
         "meta.function",
         "entity.name.type.interface",
-        "entity.name.type.ts"
+        "entity.name.type.ts",
+        "entity.name.type.tsx"
       ],
       "settings": {
         "foreground": "#8BE9FD"

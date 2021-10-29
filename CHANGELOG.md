@@ -27,3 +27,7 @@
 ## [0.3.9]
 
 - Fix comma, terminator, etc.
+
+## [0.4.5]
+
+- Fix typescript types color
