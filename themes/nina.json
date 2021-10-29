@@ -244,9 +244,7 @@
       "scope": [
         "punctuation.accessor",
         "variable.other.object",
-        "meta.objectliteral.js",
-        "support.type",
-        "variable.other.property.js.jsx"
+        "meta.objectliteral.js"
       ],
       "settings": {
         "foreground": "#ffffff"
