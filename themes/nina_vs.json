@@ -209,7 +209,7 @@
         "variable"
       ],
       "settings": {
-        "foreground": "#f5eb9f"
+        "foreground": "#f0e590"
       }
     },
     {
@@ -223,7 +223,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#93edaa"
+        "foreground": "#79eb95"
       }
     },
     {
