@@ -16,7 +16,7 @@ export const getApi = (req: Request, res: Response) => {
 
 
 export interface IPerson {
-  mname:string;
+  mname: string;
 }
 
 /**

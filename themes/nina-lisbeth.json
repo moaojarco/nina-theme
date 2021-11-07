@@ -1,5 +1,5 @@
 {
-  "name": "Nina",
+  "name": "Nina Lisbeth",
   "type": "dark",
   "include": "./nina_vs.json",
   "colors": {
@@ -75,7 +75,7 @@
   },
   "tokenColors": [
     {
-      "name": "Comment",
+      "name": "Params",
       "scope": [
         "variable.parameter",
         "meta.parameter.object-binding-pattern",
@@ -85,6 +85,16 @@
       ],
       "settings": {
         "foreground": "#FD9353"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable.other.object",
+        "variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "#ede180"
       }
     },
     {
@@ -128,14 +138,6 @@
       }
     },
     {
-      "name": "orange with italic",
-      "scope": ["variable.other.jsdoc"],
-      "settings": {
-        "foreground": "#FFB86C"
-      }
-    },
-
-    {
       "name": "Limes",
       "scope": [
         "text.xml string",
@@ -176,10 +178,7 @@
         "meta.array.literal",
         "meta.var.expr",
         "meta.jsx.children",
-        "text.html.derivative",
-        "variable.other.object",
-        "variable.other.property",
-        "variable.other.readwrite"
+        "text.html.derivative"
       ],
       "settings": {
         "foreground": "#F7F1FF"
@@ -200,12 +199,7 @@
         "keyword.control.flow",
         "keyword.control.export",
         "keyword.control.default",
-        "storage.type.interface.ts",
-        "support.type.primitive.ts",
-        "meta.type.annotation.ts",
-        "meta.field.declaration.ts",
-        "meta.interface.ts",
-        "source.ts",
+        
         "entity.other.attribute-name.html",
         "meta.attribute.name.html",
         "meta.tag.metadata.meta.void.html",
@@ -219,13 +213,13 @@
         "text.html.derivative"
       ],
       "settings": {
-        "foreground": "#89DDFF",
+        "foreground": "#B278F5",
         "fontStyle": "italic"
       }
     },
     {
       "name": "CSS3",
-      "scope": ["support.constant.property-value.css"],
+      "scope": ["support.constant.property-value.css", "entity.name.type.class", "entity.other.inherited-class"],
       "settings": {
         "foreground": "#89DDFF"
       }
@@ -247,21 +241,27 @@
         "support.type.primitive",
         "support.class.component",
         "entity.name.type",
-        "entity.name.tag"
+        "entity.name.tag",
+        "storage.type.interface.ts",
+        "support.type.primitive.ts",
+        "meta.type.annotation.ts",
+        "meta.field.declaration.ts",
+        "meta.interface.ts",
+        "source.ts"
       ],
       "settings": {
-        "foreground": "#FC618D"
+        "foreground": "#ff91ff"
       }
     },
     {
       "name": "Classes",
       "scope": [
-        "entity.name.type.class",
-        "entity.other.inherited-class",
-        "invalid.illegal.unrecognized-tag.html"
+        "invalid.illegal.unrecognized-tag.html",
+        "variable.other.jsdoc",
+        "storage.modifier"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#ff91ff"
       }
     },
     {
@@ -275,7 +275,7 @@
       "name": "Boolean and Numbers",
       "scope": ["constant.language.boolean", "constant.numeric"],
       "settings": {
-        "foreground": "#948AE3"
+        "foreground": "#9ee3ff"
       }
     },
     {
@@ -287,7 +287,7 @@
         "keyword.other.unit.percentage.css"
       ],
       "settings": {
-        "foreground": "#FC618D"
+        "foreground": "#ff91ff"
       }
     },
     {
