@@ -31,3 +31,7 @@
 ## [0.4.5]
 
 - Fix typescript types color
+
+## [0.4.8]
+
+- Welcome Nina Lisbeth!
