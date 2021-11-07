@@ -199,18 +199,9 @@
         "keyword.control.flow",
         "keyword.control.export",
         "keyword.control.default",
-        
-        "entity.other.attribute-name.html",
-        "meta.attribute.name.html",
-        "meta.tag.metadata.meta.void.html",
-        "text.html.derivative",
-        "entity.other.attribute-name.js.jsx",
         "entity.other.attribute-name.pseudo-class",
         "entity.other.attribute-name.pseudo-element",
-        "entity.other.attribute-name",
-        "meta.attribute.content",
-        "meta.tag.metadata.meta.void.html",
-        "text.html.derivative"
+        "meta.attribute.content"
       ],
       "settings": {
         "foreground": "#B278F5",
@@ -219,7 +210,16 @@
     },
     {
       "name": "CSS3",
-      "scope": ["support.constant.property-value.css", "entity.name.type.class", "entity.other.inherited-class"],
+      "scope": [
+        "support.constant.property-value.css", 
+        "entity.name.type.class", 
+        "entity.other.inherited-class",
+        "entity.name.type.interface",
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.js.jsx",
+        "variable.language.this",
+        "keyword.operator.increment"
+      ],
       "settings": {
         "foreground": "#89DDFF"
       }
@@ -250,7 +250,7 @@
         "source.ts"
       ],
       "settings": {
-        "foreground": "#ff91ff"
+        "foreground": "#FF91FF"
       }
     },
     {
@@ -261,7 +261,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#ff91ff"
+        "foreground": "#FF91FF"
       }
     },
     {
@@ -287,7 +287,7 @@
         "keyword.other.unit.percentage.css"
       ],
       "settings": {
-        "foreground": "#ff91ff"
+        "foreground": "#FF91FF"
       }
     },
     {
@@ -317,7 +317,6 @@
     {
       "name": "This Keyword",
       "scope": [
-        "variable.language.this",
         "punctuation.definition.string",
         "punctuation.separator.parameter",
         "punctuation.definition.section.case-statement",
