@@ -4,7 +4,6 @@
 </div>
 
 <div>
-  <p><b>❗ Some punctuation corrections are missing</b></p>
 
 ## Nina
 
