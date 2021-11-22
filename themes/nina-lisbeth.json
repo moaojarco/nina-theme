@@ -239,7 +239,6 @@
         "markup.changed",
         "markup.inserted",
         "support.type.primitive",
-        "support.class.component",
         "entity.name.type",
         "entity.name.tag",
         "storage.type.interface.ts",
@@ -276,6 +275,13 @@
       "scope": ["constant.language.boolean", "constant.numeric"],
       "settings": {
         "foreground": "#9ee3ff"
+      }
+    },
+    {
+      "name": "Classes JSX",
+      "scope": ["support.class.component.js.jsx", "support.class.component.ts.tsx"],
+      "settings": {
+        "foreground": "#ff4559"
       }
     },
     {
@@ -321,7 +327,8 @@
         "punctuation.separator.parameter",
         "punctuation.definition.section.case-statement",
         "punctuation.definition.tag.begin",
-        "punctuation.definition.tag.end"
+        "punctuation.definition.tag.end",
+        "punctuation.separator.comma"
       ],
       "settings": {
         "foreground": "#8B888F"
