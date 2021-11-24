@@ -272,14 +272,14 @@
     },
     {
       "name": "Boolean and Numbers",
-      "scope": ["constant.language.boolean", "constant.numeric"],
+      "scope": ["constant.language.boolean", "constant.numeric", "entity.name.type"],
       "settings": {
-        "foreground": "#9ee3ff"
+        "foreground": "#89DDFF"
       }
     },
     {
       "name": "Classes JSX",
-      "scope": ["support.class.component.js.jsx", "support.class.component.ts.tsx"],
+      "scope": ["support.class.component.js.jsx", "support.class.component.tsx"],
       "settings": {
         "foreground": "#ff4559"
       }
