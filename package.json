@@ -2,7 +2,7 @@
   "name": "nina",
   "displayName": "Nina Theme",
   "description": "Alternatives for Dracula, Dark+ and Material Theme",
-  "version": "0.5.1",
+  "version": "0.5.3",
   "engines": {
     "vscode": "^1.56.0"
   },
