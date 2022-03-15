@@ -6,11 +6,11 @@
 
 ## [0.1.8]
 
-- Start vue.js support
+- Start Vue.js support
 
 ## [0.2.2]
 
-- Release Nina Plus (Material Theme Clone with Nina base)
+- Release Nina Night (Material Theme Clone with Nina base)
 
 ## [0.3.2]
 
@@ -35,3 +35,7 @@
 ## [0.4.8]
 
 - Welcome Nina Lisbeth!
+
+## [0.5.4]
+
+- Bye Nina Night!

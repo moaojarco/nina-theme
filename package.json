@@ -1,8 +1,8 @@
 {
   "name": "nina",
   "displayName": "Nina Theme",
-  "description": "Alternatives for Dracula, Dark+ and Material Theme",
-  "version": "0.5.3",
+  "description": "Alternatives for Dracula and Dark+",
+  "version": "0.5.4",
   "engines": {
     "vscode": "^1.56.0"
   },
@@ -26,11 +26,6 @@
         "label": "Nina+",
         "uiTheme": "vs-dark",
         "path": "./themes/nina-plus.json"
-      },
-      {
-        "label": "Nina Night",
-        "uiTheme": "vs-dark",
-        "path": "./themes/nina-night.json"
       },
       {
         "label": "Nina Lisbeth",
