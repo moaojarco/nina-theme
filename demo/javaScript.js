@@ -23,7 +23,7 @@ export default Dog;
 
 export function greet(name) {
   let message = `Hello ${name}`;
-	console.log(message);
+  console.log(message);
 }
 
 greet('Foo');
@@ -68,17 +68,23 @@ async function getUser(id) {
 
 getUser(4);
 
+const obj = {
+  one: 1,
+  two: 2,
+  three: 3
+}
+
 // If/else.
 if (condition) {
-	//
+  //
 } else if (condition2) {
-	//
+  //
 } else {
-	//
+  //
 }
 
 // For loop
-for(let i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
   // loop
 }
 

@@ -83,7 +83,7 @@
     },
     {
       "name": "Null",
-      "scope": ["constant.language.null.js"],
+      "scope": ["constant.language.null"],
       "settings": {
         "foreground": "#BD93F9"
       }
@@ -206,8 +206,7 @@
         "source.php support.function",
         "support.function.magic.python",
         "markup.deleted",
-        "storage.modifier",
-        "variable.other.property.js"
+        "storage.modifier"
       ],
       "settings": {
         "foreground": "#ba87f5"
