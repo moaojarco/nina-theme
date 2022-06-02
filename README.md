@@ -7,7 +7,6 @@
 # Nina
 
 <p>This theme is based on <a href="https://draculatheme.com/" target="_blank">Dracula Theme</a> </p>
-<p>Used <a href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2" target="_blank">Bracket Pair Colorizer 2</a> in screenshots</p>
 
 ## React:
 
